@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family:'Gill Sans', sans-serif;
+
+}
+
+html{
+  font-size: 20px;
+}
+
+.fix-width{
+  max-width:1200px ;
+  margin: 0 auto;
+  padding-inline: 5px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mini-heading{
+font-size: 0.8rem;
+}
+
+.heading{
+font-size: 3.5rem;
+margin-block: 1rem;
+font-family: serif;
+}
+
+.paragraph{
+font-size: 1rem;
+}
+
+
+header{
+  width: 100%;
+  background-color: #2ED06E;
+  color: #fff;
+  height: 100vh;
+  display: grid;
+  text-align: center;
+  place-content: center;
+}
+
+.three-section{
+text-align: center;
+padding-block: 4rem;
+}
+
+.three-section .heading{
+  margin-block: 0.2rem;
+}
+
+.three-section .paragraph{
+  font-size: 0.81rem; 
+  margin-bottom: 3rem;
+}
+
+.three-section .box{
+  margin-top: 1rem;
+width: 31%;
+padding: 6rem 1rem;
+box-shadow: 0 0 30px rgba(81,94,125,.082);
+border-radius: 20px;
+border-top: 3px solid #2ED06E;
+border-bottom: 3px solid #2ED06E;
+}
+
+.three-section .box h1{
+color: #081828;
+font-size: 1.4rem;
+margin-bottom: 1.2rem;
+
+}
+
+.three-section .box p{
+  color: #727272;
+  font-size: 0.9rem;
+}
+
+
+footer{
+  padding: 3rem;
+  background-color: #081828;
+  color: white;
+  text-align: center;
+}
