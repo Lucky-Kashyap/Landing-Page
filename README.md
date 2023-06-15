@@ -8,4 +8,4 @@ step1 : open terminal :
         
  step2 : for starting project :  npm run dev
  
- Project Link : 
+ Project Link : https://learning-react-lk.netlify.app/
